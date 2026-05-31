@@ -50,6 +50,8 @@ body::after {
   100% { opacity: 1; }
 }
 
+/* CONTAINER ELEMENTS */
+
 .terminal-container {
   max-width: 900px;
   margin: 0 auto;
@@ -69,6 +71,8 @@ p{
   margin-bottom: 40px;
 }
 
+/* LISTE TERMINAL */
+
 .terminal-list {
     list-style-type: none; 
     padding-left: 0;       
@@ -85,4 +89,19 @@ p{
 .terminal-list span {
     display: block;        
     padding-left: 40px;         
+}
+
+/* ETAT HOVER LINK */
+
+.terminal-list a {
+    color: #00ff80; 
+    text-decoration: none; 
+    padding: 2px 8px; 
+    margin-left: -8px;
+    transition: background-color 0s, color 0s;
+}
+
+.terminal-list a:hover {
+    background-color: #00ff80; 
+    color: #1a1a1a;            
 }
