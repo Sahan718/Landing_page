@@ -105,3 +105,13 @@ p{
     background-color: #00ff80; 
     color: #1a1a1a;            
 }
+
+.terminal-text a {
+   color: #00ff80;  
+   transition: background-color 0s, color 0s;
+}
+
+.terminal-text a:hover{
+  background-color: #00ff80; 
+  color: #1a1a1a;
+}
