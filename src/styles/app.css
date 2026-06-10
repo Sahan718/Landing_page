@@ -99,11 +99,7 @@ p{
     padding: 2px 8px; 
     margin-left: -8px;
     transition: background-color 0s, color 0s;
-}
-
-.terminal-list a:hover {
-    background-color: #00ff80; 
-    color: #1a1a1a;            
+    pointer-events: none;
 }
 
 .terminal-text a {
@@ -115,6 +111,9 @@ p{
   background-color: #00ff80; 
   color: #1a1a1a;
 }
+
+
+/* COMMANDES TYPE */
 
 .terminal-prompt {
   display: flex;
